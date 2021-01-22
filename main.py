@@ -14,7 +14,7 @@ N_THREADS=200
 q = Queue()
 printer = Lock()
 
-def scan_port(port):
+def port_scan(port):
   """Used to check if a port in the host is open or not"""
   try:
     s = socket()
